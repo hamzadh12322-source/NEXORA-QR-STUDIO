@@ -1,0 +1,22 @@
+{
+  "name": "nexora-qr-studio-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NEXORA QR STUDIO Telegram QR generator bot for Vercel",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "set-webhook": "node scripts/set-webhook.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "grammy": "^1.35.0",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "vercel": "^41.4.1",
+    "dotenv": "^16.4.7"
+  }
+}
